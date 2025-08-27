@@ -516,14 +516,15 @@ if predict_button:
 st.markdown("""
 <div style='text-align: center; color: #64748b; margin-top: 3rem; padding: 2rem; background: rgba(255,255,255,0.02); border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);'>
     <small>
-    ⚠️ This tool provides risk assessment for informational purposes only.<br>
-    Final lending decisions should consider additional factors and comply with applicable regulations.
-    </small>
-    <br><br>
-    <small>
     👩‍💻 Built by: <strong>Samson Chigozie Chigbu</strong><br>
     📧 Email: <a href="mailto:samsonchigbu5@gmail.com" style="color:#94a3b8;">samsonchigbu5@gmail.com</a><br>
     💼 LinkedIn: <a href="https://www.linkedin.com/in/samson-chigbu-15a0051b4" target="_blank" style="color:#94a3b8;">samson-chigbu-15a0051b4</a>
     </small>
+    <br><br>
+    <small>
+    ⚠️ This tool provides risk assessment for informational purposes only.<br>
+    Final lending decisions should consider additional factors and comply with applicable regulations.
+    </small>
+    
 </div>
 """, unsafe_allow_html=True)
