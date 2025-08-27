@@ -519,5 +519,11 @@ st.markdown("""
     ⚠️ This tool provides risk assessment for informational purposes only.<br>
     Final lending decisions should consider additional factors and comply with applicable regulations.
     </small>
+    <br><br>
+    <small>
+    👩‍💻 Built by: <strong>Samson Chigozie Chigbu</strong><br>
+    📧 Email: <a href="mailto:samsonchigbu5@gmail.com" style="color:#94a3b8;">samsonchigbu5@gmail.com</a><br>
+    💼 LinkedIn: <a href="https://www.linkedin.com/in/samson-chigbu-15a0051b4" target="_blank" style="color:#94a3b8;">samson-chigbu-15a0051b4</a>
+    </small>
 </div>
 """, unsafe_allow_html=True)
