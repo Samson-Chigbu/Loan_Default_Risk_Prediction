@@ -36,8 +36,18 @@ The goal is to **Utilize customer behavioral and financial data to build a predi
 
 ## 📊 Dataset
 
-- **Source:** [Specify source or anonymized dataset]
-- **Size:** ~XX,XXX rows × XX columns
+- **Source:**  
+The dataset was obtained from publicly available CSV files hosted on GitHub:  
+
+- **Performance Data:** [trainperf.csv](https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/trainperf.csv) – Contains loan performance metrics.  
+- **Demographics Data:** [traindemographics.csv](https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/traindemographics.csv) – Contains borrower demographic information.  
+- **Previous Loans Data:** [trainprevloans.csv](https://raw.githubusercontent.com/Oyeniran20/axia_cohort_8/refs/heads/main/trainprevloans.csv) – Contains historical loan records of borrowers.  
+
+- **Size:**  
+- Performance Data: 4,368 rows × 10 columns  
+- Demographics Data: 4,346 rows × 9 columns  
+- Previous Loans Data: 18,183 rows × 12 columns
+  
 - **Key Features:** Loan Amount, Term Days, Interest Rate, Repayment Ratio, Credit History, etc.
 - **Challenges:**
   - Missing values
