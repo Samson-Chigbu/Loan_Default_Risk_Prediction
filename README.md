@@ -2,8 +2,6 @@
 
 > **An end-to-end data science project to predict loan defaults using exploratory data analysis, feature engineering, statistical insights, machine learning modeling, and deployment-ready workflows.**
 
-![Loan Default Risk](https://raw.githubusercontent.com/Samson-Chigbu/Loan_Default_Risk_Prediction/main/images/loan_default_risk.png)
-
 ---
 
 ## 📌 Project Overview
@@ -92,9 +90,10 @@ The dataset was obtained from publicly available CSV files hosted on GitHub:
 
 ## 🚀 Deployment
 
-**Local Usage**
-```python
-import joblib
+I built a web app called **“Loan Default Risk Predictor”** using Streamlit and a data science–driven machine learning model.  
+Users can input borrower and loan-related details such as loan amount, term length, and repayment history.  
+The trained model processes the input, compares it with historical data, and predicts the probability of loan default in real-time.  
 
-model = joblib.load("catboost_model.pkl")
-prediction = model.predict_proba(new_data)[:, 1]
+The app features interactive widgets for seamless data entry, a clean and structured layout using `st.columns`, and is optimized for responsiveness.  
+It is fully deployed on **Streamlit Cloud** for easy public access and testing:  
+[Loan Default Risk Predictor](https://samson-loan-default-risk-predictor.streamlit.app/)  
